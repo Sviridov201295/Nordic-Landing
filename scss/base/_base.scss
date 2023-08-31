@@ -1,0 +1,23 @@
+
+
+body {
+    font-family: $font-main;
+    // background-color: $color-header;
+    color: $white;
+    font-size: 14px;
+}
+
+a {
+    color: $white;
+    transition: color 0.2s ease-in;
+
+    &:hover {
+        color: $color-btn;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1210px;
+}
