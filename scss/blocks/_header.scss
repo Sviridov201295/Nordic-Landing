@@ -51,7 +51,7 @@
 
 .header__request {
     text-align: right;
-    
+    width: min-content;
 }
 
 .header__mainphoto {
@@ -60,7 +60,7 @@
 }
 
 .header-button {
-    padding: 21px 69px;
+    padding: 21px 0;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -68,4 +68,5 @@
     color: $dark;
     font-size: 18px;
     font-weight:500;
+    width: 200px;
 }

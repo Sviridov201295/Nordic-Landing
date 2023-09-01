@@ -174,6 +174,9 @@ a:hover {
 
 .header__request {
   text-align: right;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
 }
 
 .header__mainphoto {
@@ -182,7 +185,7 @@ a:hover {
 }
 
 .header-button {
-  padding: 21px 69px;
+  padding: 21px 0;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -194,6 +197,7 @@ a:hover {
   color: #222733;
   font-size: 18px;
   font-weight: 500;
+  width: 200px;
 }
 
 .nav {
