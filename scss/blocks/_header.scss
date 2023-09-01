@@ -15,7 +15,7 @@
 .header__maintop-row {
     display: flex;
     justify-content: space-between;
-    
+    margin-bottom: 285px;
 }
 
 .header__subtop-row {
@@ -26,12 +26,8 @@
 
 
 .header__blocks {
-    
-    text-align: left;
-}
-
-.header__wrapper {
     display: flex;
+    text-align: left;
 }
 
 .header__texts {
