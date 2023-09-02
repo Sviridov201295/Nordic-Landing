@@ -190,7 +190,7 @@ h2 {
   height: auto;
 }
 
-.button {
+.button, .about__button {
   display: inline-block;
   padding: 21px 0;
   text-align: center;
@@ -233,6 +233,10 @@ h2 {
   justify-content: space-between;
 }
 
+.about__text {
+  margin-bottom: 80px;
+}
+
 .about_mintitle {
   font-weight: 400;
 }
@@ -250,9 +254,37 @@ h2 {
 }
 
 .about_textleft {
+  max-width: 400px;
   font-weight: 300;
 }
 
 .about_textright {
+  max-width: 400px;
   font-weight: 300;
+}
+
+.about__button {
+  background-color: #222733;
+  color: #fff;
+}
+
+.about__stats {
+  display: flex;
+  gap: 174px;
+}
+
+.about__stats-item {
+  min-width: 180px;
+  max-height: 44px;
+}
+
+.about__stats-item-number {
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.about__stats-item-text {
+  font-weight: 300;
+  font-size: 16px;
 }
