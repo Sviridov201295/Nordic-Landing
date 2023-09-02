@@ -103,6 +103,7 @@ a:hover {
   margin: 0 auto;
   padding: 0 15px;
   width: 1210px;
+  position: relative;
 }
 
 .visually-hidden {
@@ -218,16 +219,24 @@ a:hover {
 }
 
 .about {
-  padding-top: 140px;
+  padding: 140px 0;
   color: #222733;
+}
+
+.about__mintitle {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .about__title {
   display: flex;
   justify-content: flex-end;
-}
-
-.about__maintitle {
   font-size: 40px;
   font-weight: 700;
+}
+
+.about_description {
+  justify-content: space-between;
+  margin: 60px 0;
 }
