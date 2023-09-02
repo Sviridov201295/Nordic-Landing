@@ -105,6 +105,28 @@ a:hover {
   width: 1210px;
 }
 
+.visually-hidden {
+  /* Contain text within 1px box */
+  height: 1px;
+  overflow: hidden;
+  width: 1px;
+  /* Keep the layout */
+  position: absolute;
+  /* Remove any visible trace (e.g. background    
+  color) */
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%); /* browsers in the future
+*/
+  /* Prevent the screen reader to skip spaces
+  between words */
+  white-space: nowrap;
+}
+
+.none {
+  display: none !important;
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -193,4 +215,19 @@ a:hover {
   font-size: 14px;
   font-weight: 300;
   opacity: 0.8;
+}
+
+.about {
+  padding-top: 140px;
+  color: #222733;
+}
+
+.about__title {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about__maintitle {
+  font-size: 40px;
+  font-weight: 700;
 }
