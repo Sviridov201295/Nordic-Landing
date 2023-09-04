@@ -1,8 +1,9 @@
 .about__stat {
     display: flex;
-    text-align: center;
+    align-items: center;
     justify-content: space-between;
 }
+
 .about__block {
     max-width: 180px;
     span:nth-child(1){
