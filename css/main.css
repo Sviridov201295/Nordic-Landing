@@ -326,3 +326,36 @@ h2 {
   line-height: 22px;
   text-align: left;
 }
+
+.catering {
+  background-image: url("./../img/catering/catering-bg.png");
+  background-position: center;
+  background-color: #121925;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 120px;
+  height: 676px;
+}
+
+.catering__wrapper {
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.catering__text {
+  max-width: 870px;
+}
+
+.catering__title {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.catering__subtitle {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: left;
+}
